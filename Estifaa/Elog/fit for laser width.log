@@ -1,0 +1,811 @@
+
+
+*******************************************************************************
+Fri Oct 20 12:46:18 2017
+
+
+FIT:    data read from "laser.dat" using 1:2
+        format = x:z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.02365e+07       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 986.422
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 128.606
+rel. change during last iteration : -4.80973e-11
+
+degrees of freedom    (FIT_NDF)                        : 20
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.53581
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.43032
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.0304688        +/- 0.0007402    (2.429%)
+b               = 1.15151          +/- 1.033        (89.67%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.852  1.000 
+
+
+*******************************************************************************
+Tue Oct 24 13:29:23 2017
+
+
+FIT:    data read from 'laser.dat'
+        format = z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.02365e+07       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 986.422
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 128.606
+rel. change during last iteration : -4.80973e-11
+
+degrees of freedom    (FIT_NDF)                        : 20
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.53581
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.43032
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.0304688        +/- 0.0007402    (2.429%)
+b               = 1.15151          +/- 1.033        (89.67%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.852  1.000 
+
+
+*******************************************************************************
+Tue Oct 24 13:29:49 2017
+
+
+FIT:    data read from 'laser.dat'
+        format = z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 157.778           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1395.01
+
+initial set of free parameter values
+
+m               = 0.0304688
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 136.604
+rel. change during last iteration : -6.04832e-11
+
+degrees of freedom    (FIT_NDF)                        : 21
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.55048
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.50495
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.031172         +/- 0.0003898    (1.25%)
+
+
+correlation matrix of the fit parameters:
+
+               m      
+m               1.000 
+
+
+*******************************************************************************
+Tue Oct 24 13:30:27 2017
+
+
+FIT:    data read from 'laser.dat'
+        format = z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 134.548           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1401.49
+
+initial set of free parameter values
+
+m               = 0.031172
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 133.664
+rel. change during last iteration : -2.58055e-12
+
+degrees of freedom    (FIT_NDF)                        : 21
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.52288
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.36494
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.031029         +/- 0.0003838    (1.237%)
+
+
+correlation matrix of the fit parameters:
+
+               m      
+m               1.000 
+
+
+*******************************************************************************
+Tue Oct 24 13:30:56 2017
+
+
+FIT:    data read from 'laser.dat'
+        format = z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 209.428           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 1460.3
+
+initial set of free parameter values
+
+m               = 0.031029
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 136.066
+rel. change during last iteration : -2.10392e-10
+
+degrees of freedom    (FIT_NDF)                        : 21
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.54545
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.47931
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.0297785        +/- 0.0003716    (1.248%)
+
+
+correlation matrix of the fit parameters:
+
+               m      
+m               1.000 
+
+
+*******************************************************************************
+Tue Oct 24 13:31:25 2017
+
+
+FIT:    data read from 'laser.dat'
+        format = z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 219.745           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 986.422
+
+initial set of free parameter values
+
+m               = 0.0297785
+b               = 1e-30
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 136.604
+rel. change during last iteration : -1.55175e-11
+
+degrees of freedom    (FIT_NDF)                        : 20
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.61346
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.8302
+
+BREAK:          Singular matrix in Invert_RtR
+
+
+
+*******************************************************************************
+Tue Oct 24 13:31:30 2017
+
+
+FIT:    data read from 'laser.dat'
+        format = z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 137.058           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 985.82
+
+initial set of free parameter values
+
+m               = 0.031172
+b               = 1
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 137.043
+rel. change during last iteration : -1.29368e-07
+
+degrees of freedom    (FIT_NDF)                        : 20
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.61766
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.85215
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.0311909        +/- 0.0007641    (2.45%)
+b               = 0.999977         +/- 34.15        (3415%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b               0.852  1.000 
+
+
+*******************************************************************************
+Tue Oct 24 13:31:52 2017
+
+
+FIT:    data read from 'laser.dat'
+        format = z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 390.897           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 926.919
+
+initial set of free parameter values
+
+m               = 0.0311909
+b               = 100
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 128.606
+rel. change during last iteration : -1.45858e-09
+
+degrees of freedom    (FIT_NDF)                        : 20
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.53581
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.43032
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.0304688        +/- 0.0007402    (2.429%)
+b               = -37.793          +/- 34.67        (91.75%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b               0.859  1.000 
+
+
+*******************************************************************************
+Wed Oct 25 10:52:36 2017
+
+
+FIT:    data read from 'laser co.dat'
+        format = z
+        #datapoints = 26
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Oct 25 10:53:25 2017
+
+
+FIT:    data read from 'laser co.dat'
+        format = z
+        #datapoints = 26
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Oct 25 10:54:46 2017
+
+
+FIT:    data read from 'laser co.dat'
+        format = z
+        #datapoints = 26
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Oct 25 10:57:22 2017
+
+
+FIT:    data read from 'laser co.dat'
+        format = z
+        #datapoints = 26
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 30.5793           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.67914
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 14 iterations the fit converged.
+final sum of squares of residuals : 0.00145483
+rel. change during last iteration : -1.5339e-07
+
+degrees of freedom    (FIT_NDF)                        : 23
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00795319
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.32533e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.34191          +/- 0.6576       (19.68%)
+b               = 12.366           +/- 1.103        (8.918%)
+c               = 0.0204011        +/- 0.001781     (8.732%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.480 -0.035  1.000 
+
+
+*******************************************************************************
+Wed Oct 25 10:58:32 2017
+
+
+FIT:    data read from 'laser co.dat'
+        format = z
+        #datapoints = 26
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00145483        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.577353
+
+initial set of free parameter values
+
+a               = 3.34191
+b               = 12.366
+c               = 0.0204011
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.00145483
+rel. change during last iteration : -1.72897e-14
+
+degrees of freedom    (FIT_NDF)                        : 23
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00795319
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.32533e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.34191          +/- 0.6576       (19.68%)
+b               = 12.366           +/- 1.103        (8.918%)
+c               = 0.0204011        +/- 0.001781     (8.732%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.480 -0.035  1.000 
+
+
+*******************************************************************************
+Wed Oct 25 10:59:18 2017
+
+
+FIT:    data read from 'laser co.dat'
+        format = z
+        #datapoints = 26
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.0122762         delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.00176647
+
+initial set of free parameter values
+
+a               = 3.34191
+b               = 12.366
+c               = 0.0204011
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00975144
+rel. change during last iteration : -7.53093e-08
+
+degrees of freedom    (FIT_NDF)                        : 23
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0205907
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000423976
+
+BREAK:          Singular matrix in Invert_RtR
+
+
+
+*******************************************************************************
+Wed Oct 25 10:59:40 2017
+
+
+FIT:    data read from 'laser co.dat'
+        format = z
+        #datapoints = 26
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.00398445        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.577355
+
+initial set of free parameter values
+
+a               = 6.95091
+b               = 12.5587
+c               = 0.0204215
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.00145483
+rel. change during last iteration : -7.73602e-07
+
+degrees of freedom    (FIT_NDF)                        : 23
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00795319
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.32533e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.34192          +/- 0.6576       (19.68%)
+b               = 12.3656          +/- 1.103        (8.918%)
+c               = 0.0204011        +/- 0.001781     (8.732%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.049  1.000 
+c              -0.480 -0.035  1.000 
+
+
+*******************************************************************************
+Wed Oct 25 11:06:29 2017
+
+
+FIT:    data read from 'laser co90.dat'
+        format = z
+        #datapoints = 28
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.219444          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.577351
+
+initial set of free parameter values
+
+a               = 3.34192
+b               = 12.3656
+c               = 0.0204011
+
+After 17 iterations the fit converged.
+final sum of squares of residuals : 0.046549
+rel. change during last iteration : -1.05364e-08
+
+degrees of freedom    (FIT_NDF)                        : 25
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0431504
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00186196
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 121.905          +/- 15.36        (12.6%)
+b               = 24.4728          +/- 1.454        (5.943%)
+c               = 0.0415132        +/- 0.008952     (21.56%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               0.179  1.000 
+c              -0.412 -0.046  1.000 
+
+
+*******************************************************************************
+Wed Oct 25 12:18:29 2017
+
+
+FIT:    data read from 'laser co90.dat'
+        format = z
+        #datapoints = 28
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.046549          delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57736
+
+initial set of free parameter values
+
+a               = 121.905
+b               = 24.4728
+c               = 0.0415132
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.046549
+rel. change during last iteration : -1.49066e-16
+
+degrees of freedom    (FIT_NDF)                        : 25
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0431504
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00186196
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 121.905          +/- 15.36        (12.6%)
+b               = 24.4728          +/- 1.454        (5.943%)
+c               = 0.0415132        +/- 0.008952     (21.56%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               0.179  1.000 
+c              -0.412 -0.046  1.000 
+
+
+*******************************************************************************
+Wed Oct 25 12:26:36 2017
+
+
+FIT:    data read from 'laser.dat'
+        format = z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.14385e+07       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 986.422
+
+initial set of free parameter values
+
+m               = 1
+b               = 24.4728
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 128.606
+rel. change during last iteration : -1.13075e-06
+
+degrees of freedom    (FIT_NDF)                        : 20
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.53581
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.43032
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.0304688        +/- 0.0007402    (2.429%)
+b               = 1.15151          +/- 1.033        (89.67%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.852  1.000 
+
+
+*******************************************************************************
+Thu Oct 26 11:31:47 2017
+
+
+FIT:    data read from 'laser width.dat'
+        format = z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.02365e+07       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 986.422
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 128.606
+rel. change during last iteration : -4.80973e-11
+
+degrees of freedom    (FIT_NDF)                        : 20
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.53581
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.43032
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.0304688        +/- 0.0007402    (2.429%)
+b               = 1.15151          +/- 1.033        (89.67%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.852  1.000 
+
+
+*******************************************************************************
+Thu Oct 26 11:35:55 2017
+
+
+FIT:    data read from 'laser width.dat'
+        format = z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.02365e+07       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 986.422
+
+initial set of free parameter values
+
+m               = 1
+b               = 1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 128.606
+rel. change during last iteration : -4.80973e-11
+
+degrees of freedom    (FIT_NDF)                        : 20
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.53581
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.43032
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.0304688        +/- 0.0007402    (2.429%)
+b               = 1.15151          +/- 1.033        (89.67%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.852  1.000 

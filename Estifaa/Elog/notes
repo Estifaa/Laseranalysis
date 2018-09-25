@@ -1,0 +1,103 @@
+f(x) = m*(x-b)
+b=100
+fit f(x) 'laser.dat' via m,b
+plot 'laser.dat', f(x)
+plot 'intensityf.dat'
+plot 'intensityf.dat' u 1:(1/$2*(f($1)/4)**2)
+plot 'intensityf.dat' u 1:(1/$2)
+plot 'intensityf.dat' u 1:(1/$2*(f($1)/4)**2)
+plot [:2500] f(x)**2/16
+plot [0:2500] f(x)**2/16
+
+
+
+
+ 
+plot 'laser.dat',\ f(x)
+plot 'intensityf.dat'
+plot 'intensityf.dat' u 1:(1/$2*(f($1)/4)**2)
+plot 'intensityf.dat' u 1:(1/$2)
+plot 'intensityf.dat' u 1:(1/$2*(f($1)/4)**2)
+plot [:2500] f(x)**2/16
+plot [0:2500] f(x)**2/16
+plot 'intensityf.dat' u 1:(1/$2)
+plot [0:2500] f(x)**2/16
+plot 'intensityf.dat' u 1:(1/$2*(f($1)/4)**2)
+plot 'intensityf.dat' u 1:(1/$2)
+plot 'intensityf.dat' u 1:(10000/$2)
+plot 'intensityf.dat' u 1:(10000/$2) w l
+plot 'intensityf.dat' u 1:(10000/$2) w l, f(x)**2/16
+plot 'intensityf.dat' u 1:(1/$2*(f($1)/4)**2) w l
+plot [][0:] 'intensityf.dat' u 1:(1/$2*(f($1)/4)**2) w l
+plot [][0:] 'intensityf.dat' u (atan(4/$1)):(1/$2*(f($1)/4)**2) w l
+plot [][0:] 'intensityf.dat' u (atan(4/$1)*180/pi):(1/$2*(f($1)/4)**2) w l
+plot [][0:] 'intensityf.dat' u (atan(4/$1)*180./pi):(1/$2*(f($1)/4)**2) w l
+plot [][0:] 'intensityf.dat' u (atan(4/$1)*180./pi):(1/$2*(f($1)/4)**2) w l
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 13.5443          +/- 0.3298       (2.435%)
+b               = -7.61403         +/- 0.2096       (2.753%)
+c               = 0.000718823      +/- 8.441e-05    (11.74%)
+
+
+
+
+LASER WIDTH 
+
+We measured the width of the laser beam with respect to the distance from the fibre, ranging from 21.3 (cm) to roughly 2.5 (m). 
+
+
+
+The relationship between the width of the beam and the distance was linear. The gradient of the line being   
+
+
+
+LASER INTENSITY
+
+we measured the intensity of the laser beam at different distances from the source. This was done using a photo-resistor at two different voltages 2.6V and 2V. 
+
+
+
+LED CHECK
+
+
+
+In order to check the behaviour of the photo-resistor with respect to the light intensity we used an LED point source and took measurements of resistance at varying distances from the source. There was a 1/r^2 relationship with the fit indicating that the focus point is further back than LED source. 
+
+
+
+the equation of the fit was : a/(x-b)^2 +c
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 13.5443          +/- 0.3298       (2.435%)
+b               = -7.61403         +/- 0.2096       (2.753%)
+c               = 0.000718823      +/- 8.441e-05    (11.74%)
+
+
+INTENSITY PROFILE 
+
+
+
+The laser beam from the fibre was projected on a squared piece of paper 1m away from the fibre. The intensity of the projected circle was then measured using a photo-resistor. Resistance was plotted against distance from the centre of the circle in both +x and -x directions. 
+
+
+ 855  set style line 1 lc rgb '#0060ad' lt 1 lw 2 pt 7 ps 1.5 
+  856  plot 'laserprofile_1m_after_fiber.dat' 
+  857  plot 'laserprofile_1m_after_fiber.dat' u 1:(1/$2) with lp ls 1
+  858  plot 'laserprofile_1m_after_fiber.dat' u (1*25.4):(1/$2) with lp ls 1 title 'intensity profile'
+  859  plot 'laserprofile_1m_after_fiber.dat' u ($1*25.4):(1/$2) with lp ls 1 title 'intensity profile'
+  860  set title 'Intensity profile of projected beam 1m away from fibre' 
+  861  set xlabel 'Distance (mm)'
+  862  plot 'laserprofile_1m_after_fiber.dat' u ($1*25.4):(1/$2) with lp ls 1 title 'intensity profile'
+  863  set term png
+  864  set ylabel 
+  865  set ylabel ' R^{-1} (KOhms)'
+  866  set output 'laserprofile.png'
+  867  plot 'laserprofile_1m_after_fiber.dat' u ($1*25.4):(1/$2) with lp ls 1 title 'intensity profile'
+  868  unset term 
+  869  plot 'laserprofile_1m_after_fiber.dat' u ($1*25.4):(1/$2) with l
+

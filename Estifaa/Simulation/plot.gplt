@@ -1,0 +1,4 @@
+binwidth=5
+bin(x,width)=width*floor(x/width)
+set style line 1 lc rgb '#0060ad' lt 1 lw 2 pt 7 pi -1 ps 1.5
+plot 'cx0.5.dat' using (bin($1,binwidth)):(1.0) smooth freq with boxes,'0.5_data' using 1:($2*100) with linespoints ls 1, 'cx.dat' using  (bin($1,binwidth)):(1.0) smooth freq with boxes

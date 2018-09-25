@@ -1,0 +1,2820 @@
+
+
+*******************************************************************************
+Fri Oct 27 11:09:31 2017
+
+
+FIT:    data read from 'LED13V.dat'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 9.84237           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.577355
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 1.41777e-07
+rel. change during last iteration : -1.34997e-07
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000142316
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.02538e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 13.5443          +/- 0.3298       (2.435%)
+b               = -7.61403         +/- 0.2096       (2.753%)
+c               = 0.000718823      +/- 8.441e-05    (11.74%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.989  1.000 
+c              -0.802  0.753  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:11:03 2017
+
+
+FIT:    data read from 'LED13V.dat'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 9.84237           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.577355
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 1.41777e-07
+rel. change during last iteration : -1.34997e-07
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000142316
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.02538e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 13.5443          +/- 0.3298       (2.435%)
+b               = -7.61403         +/- 0.2096       (2.753%)
+c               = 0.000718823      +/- 8.441e-05    (11.74%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.989  1.000 
+c              -0.802  0.753  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:24:05 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 742352            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.577352
+
+initial set of free parameter values
+
+a               = 13.5443
+b               = -7.61403
+c               = 0.000718823
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 261219
+rel. change during last iteration : -1.00817e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.399
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130609
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -186.294         +/- 9.309e+08    (4.997e+08%)
+b               = -200.998         +/- 4.036e+08    (2.008e+08%)
+c               = 310.211          +/- 5132         (1654%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               0.999  1.000 
+c              -0.995 -0.990  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:24:46 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 261219            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = -186.294
+b               = -200.998
+c               = 310.211
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261219
+rel. change during last iteration : -2.43418e-09
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.399
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130609
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -186.307         +/- 9.305e+08    (4.994e+08%)
+b               = -200.969         +/- 4.034e+08    (2.007e+08%)
+c               = 310.211          +/- 5131         (1654%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               0.999  1.000 
+c              -0.995 -0.990  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:25:36 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 261219            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = -186.307
+b               = -200.969
+c               = 310.211
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261219
+rel. change during last iteration : -2.43628e-09
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.399
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130609
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -186.319         +/- 9.3e+08      (4.992e+08%)
+b               = -200.941         +/- 4.031e+08    (2.006e+08%)
+c               = 310.211          +/- 5130         (1654%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               0.999  1.000 
+c              -0.995 -0.990  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:26:42 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 739267            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57736
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 261220
+rel. change during last iteration : -2.40176e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.4
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130610
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -495.021         +/- 9.111e+11    (1.841e+11%)
+b               = 1443.38          +/- 8.556e+11    (5.928e+10%)
+c               = 310.208          +/- 1.565e+05    (5.044e+04%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c              -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:29:05 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 261220            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = -495.021
+b               = 1443.38
+c               = 310.208
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261220
+rel. change during last iteration : -1.56917e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.4
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130610
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -495.021         +/- 9.112e+11    (1.841e+11%)
+b               = 1443.38          +/- 8.557e+11    (5.929e+10%)
+c               = 310.208          +/- 1.565e+05    (5.045e+04%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c              -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:30:39 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 261220            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = -495.021
+b               = 1443.38
+c               = 310.208
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261220
+rel. change during last iteration : -3.37587e-14
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.4
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130610
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -495.021         +/- 9.111e+11    (1.841e+11%)
+b               = 1443.38          +/- 8.556e+11    (5.928e+10%)
+c               = 310.208          +/- 1.565e+05    (5.044e+04%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c              -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:31:11 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 261220            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = -495.021
+b               = 1443.38
+c               = 310.208
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261220
+rel. change during last iteration : -2.78537e-14
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.4
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130610
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -495.021         +/- 9.113e+11    (1.841e+11%)
+b               = 1443.38          +/- 8.558e+11    (5.929e+10%)
+c               = 310.208          +/- 1.565e+05    (5.045e+04%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c              -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:31:57 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 739267            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57736
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 261220
+rel. change during last iteration : -2.40176e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.4
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130610
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -495.021         +/- 9.111e+11    (1.841e+11%)
+b               = 1443.38          +/- 8.556e+11    (5.928e+10%)
+c               = 310.208          +/- 1.565e+05    (5.044e+04%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c              -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:33:19 2017
+
+
+FIT:    data read from 'LED13V.dat'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 962228            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = -495.021
+b               = 1443.38
+c               = 310.208
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.0015627
+rel. change during last iteration : -3.32057e-08
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0149413
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000223243
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -495.027         +/- 2.417e+07    (4.883e+06%)
+b               = 1443.38          +/- 2.261e+07    (1.567e+06%)
+c               = 0.0100371        +/- 4.182        (4.166e+04%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c              -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:35:08 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 739267            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57736
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 261220
+rel. change during last iteration : -2.40176e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.4
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130610
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -495.021         +/- 9.111e+11    (1.841e+11%)
+b               = 1443.38          +/- 8.556e+11    (5.928e+10%)
+c               = 310.208          +/- 1.565e+05    (5.044e+04%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c              -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:37:37 2017
+
+
+FIT:    data read from 'LED13V.dat'
+        format = z
+	y range restricted to [10.0000 : 90.0000]
+        #datapoints = 9
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 866000            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = -495.021
+b               = 1443.38
+c               = 310.208
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00149225
+rel. change during last iteration : -2.49167e-08
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0157705
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000248708
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -495.026         +/- 3.39e+07     (6.848e+06%)
+b               = 1443.38          +/- 3.184e+07    (2.206e+06%)
+c               = 0.0109219        +/- 5.821        (5.33e+04%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c              -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:38:55 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+
+
+*******************************************************************************
+Fri Oct 27 11:39:03 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 739267            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57736
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 261220
+rel. change during last iteration : -2.40176e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.4
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130610
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -495.021         +/- 9.111e+11    (1.841e+11%)
+b               = 1443.38          +/- 8.556e+11    (5.928e+10%)
+c               = 310.208          +/- 1.565e+05    (5.044e+04%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c              -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:39:07 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 261220            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 4.47805e-07
+
+initial set of free parameter values
+
+a               = -495.021
+b               = 1443.38
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261220
+rel. change during last iteration : -9.01067e-08
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 295.082
+variance of residuals (reduced chisquare) = WSSR/ndf   : 87073.5
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -7.26661e+06     +/- 2.359e+33    (3.246e+28%)
+b               = 3.6871e+07       +/- 5.985e+33    (1.623e+28%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -1.000  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:39:35 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 261220            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 5.58883e-16
+
+initial set of free parameter values
+
+a               = -7.26661e+06
+b               = 3.6871e+07
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261220
+rel. change during last iteration : -1.11415e-16
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 295.082
+variance of residuals (reduced chisquare) = WSSR/ndf   : 87073.5
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.10856e+10      +/- 1.446e+38    (4.653e+29%)
+b               = 1.22926e+10      +/- 3.269e+37    (2.659e+29%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b               1.000  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:39:38 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 261220            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = 3.10856e+10
+b               = 1.22926e+10
+c               = 310.208
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261220
+rel. change during last iteration : -1.60437e-14
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.4
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130610
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.10856e+10      +/- 2.119e+38    (6.818e+29%)
+b               = 1.22926e+10      +/- 4.987e+37    (4.057e+29%)
+c               = 310.208          +/- 1.813e+18    (5.846e+17%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               0.344  1.000 
+c              -0.549  0.596  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:39:53 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 261220            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = 3.10856e+10
+b               = 1.22926e+10
+c               = 310.208
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261220
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.4
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130610
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.10856e+10      +/- 2.119e+38    (6.818e+29%)
+b               = 1.22926e+10      +/- 4.987e+37    (4.057e+29%)
+c               = 310.208          +/- 1.813e+18    (5.846e+17%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               0.344  1.000 
+c              -0.549  0.596  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 11:42:42 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 261220            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = 3.10856e+10
+b               = 1.22926e+10
+c               = 310.208
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261220
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.4
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130610
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.10856e+10      +/- 2.119e+38    (6.818e+29%)
+b               = 1.22926e+10      +/- 4.987e+37    (4.057e+29%)
+c               = 310.208          +/- 1.813e+18    (5.846e+17%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               0.344  1.000 
+c              -0.549  0.596  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 12:07:51 2017
+
+
+FIT:    data read from 'laser width.dat'
+        format = z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Fri Oct 27 12:07:57 2017
+
+
+FIT:    data read from 'laser width.dat'
+        format = z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.32436e+21       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 986.422
+
+initial set of free parameter values
+
+m               = 1
+b               = 1.22926e+10
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 128.606
+rel. change during last iteration : -2.12821e-12
+
+degrees of freedom    (FIT_NDF)                        : 20
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.53581
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.43032
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.0304688        +/- 0.0007402    (2.429%)
+b               = 1.15151          +/- 1.033        (89.67%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.852  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 12:08:27 2017
+
+
+FIT:    data read from 'laser width.dat'
+        format = z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 128.606           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 986.422
+
+initial set of free parameter values
+
+m               = 0.0304688
+b               = 1.15151
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 128.606
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 20
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.53581
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.43032
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.0304688        +/- 0.0007402    (2.429%)
+b               = 1.15151          +/- 1.033        (89.67%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.852  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 12:21:30 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.59254e+17       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.31851e+07
+
+initial set of free parameter values
+
+a               = 3.10856e+10
+b               = 1.15151
+c               = 310.208
+
+After 225 iterations the fit converged.
+final sum of squares of residuals : 261604
+rel. change during last iteration : -9.98733e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.665
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130802
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.10853e+10      +/- 5.487e+16    (1.765e+08%)
+b               = -21768           +/- 1.286e+10    (5.909e+07%)
+c               = 244.907          +/- 3.838e+07    (1.567e+07%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c              -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 13:01:35 2017
+
+
+FIT:    data read from 'laser width.dat'
+        format = z
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.04258e+10       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 986.422
+
+initial set of free parameter values
+
+m               = 0.0304688
+b               = -21768
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 128.606
+rel. change during last iteration : -2.56429e-10
+
+degrees of freedom    (FIT_NDF)                        : 20
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.53581
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.43032
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+m               = 0.0304688        +/- 0.0007402    (2.429%)
+b               = 1.15151          +/- 1.033        (89.67%)
+
+
+correlation matrix of the fit parameters:
+
+               m      b      
+m               1.000 
+b              -0.852  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 14:32:24 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat' u 1:(1/$2)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+
+
+*******************************************************************************
+Fri Oct 27 14:32:33 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat' u 1:(1/$2)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.93279           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57736
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 16 iterations the fit converged.
+final sum of squares of residuals : 4.29277e-09
+rel. change during last iteration : -1.09677e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.63291e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.14638e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 10.9515          +/- 0.2091       (1.909%)
+b               = -8.3513          +/- 0.1656       (1.983%)
+c               = 0.000407058      +/- 4.712e-05    (11.58%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.996  1.000 
+c              -0.858  0.831  1.000 
+
+
+*******************************************************************************
+Fri Oct 27 14:33:32 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat' u 1:(1/$2)
+        format = x:z
+	y range restricted to [10.0000 : 90.0000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 4.29277e-09       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.577352
+
+initial set of free parameter values
+
+a               = 10.9515
+b               = -8.3513
+c               = 0.000407058
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 4.29277e-09
+rel. change during last iteration : -4.04652e-15
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.63291e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.14638e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 10.9515          +/- 0.2091       (1.909%)
+b               = -8.3513          +/- 0.1656       (1.983%)
+c               = 0.000407058      +/- 4.712e-05    (11.58%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.996  1.000 
+c              -0.858  0.831  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 10:50:57 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+	y range restricted to [10.0000 : 90.0000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 739267            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57736
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 261220
+rel. change during last iteration : -2.40176e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.4
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130610
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -495.021         +/- 9.111e+11    (1.841e+11%)
+b               = 1443.38          +/- 8.556e+11    (5.928e+10%)
+c               = 310.208          +/- 1.565e+05    (5.044e+04%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c              -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 10:52:37 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 261220            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = -495.021
+b               = 1443.38
+c               = 310.208
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 261220
+rel. change during last iteration : -1.56917e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 361.4
+variance of residuals (reduced chisquare) = WSSR/ndf   : 130610
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -495.021         +/- 9.112e+11    (1.841e+11%)
+b               = 1443.38          +/- 8.557e+11    (5.929e+10%)
+c               = 310.208          +/- 1.565e+05    (5.045e+04%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -1.000  1.000 
+c              -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 10:52:57 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 742364            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0
+
+initial set of free parameter values
+
+a               = -495.021
+b               = 1443.38
+c               = 310.208
+BREAK:          Singular matrix in Givens()
+
+
+
+*******************************************************************************
+Mon Oct 30 10:53:13 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 743112            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.00450447
+
+initial set of free parameter values
+
+a               = -495.021
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 737121
+rel. change during last iteration : -8.99604e-10
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 429.279
+variance of residuals (reduced chisquare) = WSSR/ndf   : 184280
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 7190.17          +/- 4.262e+04    (592.7%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Oct 30 10:54:22 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat' u 1:(1/$2)
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 482090            delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = 7190.17
+b               = 1443.38
+c               = 310.518
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.000717215
+rel. change during last iteration : -2.04559e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0189369
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000358607
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 7190.17          +/- 4.775e+07    (6.641e+05%)
+b               = 1443.43          +/- 3.087e+06    (2.139e+05%)
+c               = 0.00591887       +/- 8.2          (1.385e+05%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               1.000  1.000 
+c              -1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 10:56:00 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat' u 1:(1/$2)
+        format = x:z
+	y range restricted to [10.0000 : 90.0000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+
+
+*******************************************************************************
+Mon Oct 30 10:56:20 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat' u 1:(1/$2)
+        format = x:z
+	y range restricted to [10.0000 : 90.0000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.000717215       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = 7190.17
+b               = 1443.43
+c               = 0.00591887
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.000717215
+rel. change during last iteration : -2.04637e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0189369
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000358607
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 7190.17          +/- 4.775e+07    (6.641e+05%)
+b               = 1443.43          +/- 3.087e+06    (2.139e+05%)
+c               = 0.00591887       +/- 8.2          (1.385e+05%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               1.000  1.000 
+c              -1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 10:59:58 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat' u 1:(1/$2)
+        format = x:z
+	y range restricted to [10.0000 : 90.0000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.000717215       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = 7190.17
+b               = 1443.43
+c               = 0.00591887
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.000717215
+rel. change during last iteration : -2.04486e-12
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0189369
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000358607
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 7190.17          +/- 4.775e+07    (6.641e+05%)
+b               = 1443.43          +/- 3.087e+06    (2.139e+05%)
+c               = 0.00591887       +/- 8.2          (1.385e+05%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               1.000  1.000 
+c              -1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 11:07:59 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+	y range restricted to [10.0000 : 90.0000]
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.000719308       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = 7190.17
+b               = 1443.43
+c               = 0.00591887
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.000719304
+rel. change during last iteration : -5.26946e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0189645
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000359652
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 7190.17          +/- 4.782e+07    (6.651e+05%)
+b               = 1443.43          +/- 3.092e+06    (2.142e+05%)
+c               = 0.00589301       +/- 8.212        (1.394e+05%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               1.000  1.000 
+c              -1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 11:10:33 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.000719304       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.57735
+
+initial set of free parameter values
+
+a               = 7190.17
+b               = 1443.43
+c               = 0.00589301
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.000719304
+rel. change during last iteration : -2.05858e-08
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0189645
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000359652
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 7190.17          +/- 4.782e+07    (6.651e+05%)
+b               = 1443.43          +/- 3.092e+06    (2.142e+05%)
+c               = 0.00589139       +/- 8.212        (1.394e+05%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b               1.000  1.000 
+c              -1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 11:10:53 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5241.01           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.577356
+
+initial set of free parameter values
+
+a               = 7190.17
+b               = 1443.43
+c               = 0.00589139
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.62888e-06
+rel. change during last iteration : -2.2474e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00182056
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.31444e-06
+
+BREAK:          Singular matrix in Invert_RtR
+
+
+
+*******************************************************************************
+Mon Oct 30 11:11:29 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.30224e-05       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.00450447
+
+initial set of free parameter values
+
+a               = 3.08373
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 2.57299e-05
+rel. change during last iteration : -3.13658e-08
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00253623
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.43248e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.35184          +/- 0.2518       (7.512%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Oct 30 11:11:59 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.04175e+07       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.707114
+
+initial set of free parameter values
+
+a               = 3.35184
+b               = 1443.43
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 6.62888e-06
+rel. change during last iteration : -3.71505e-12
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00148648
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.20963e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.08373          +/- 0.1735       (5.626%)
+b               = 0.00229754       +/- 0.0007814    (34.01%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.526  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 11:12:26 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 6.63284e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.577358
+
+initial set of free parameter values
+
+a               = 3.08373
+b               = 0.00229754
+c               = 0.00229984
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 6.6328e-06
+rel. change during last iteration : -7.38112e-06
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0018211
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.3164e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.08373          +/- 3.637        (117.9%)
+b               = 0.00229475       +/- 0.001533     (66.8%)
+c               = 0.00229718       +/- 5.715        (2.488e+05%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.799  1.000 
+c              -0.998  0.781  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 11:13:07 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 6.6328e-06        delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.577358
+
+initial set of free parameter values
+
+a               = 3.08373
+b               = 0.00229475
+c               = 0.00229718
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 6.63279e-06
+rel. change during last iteration : -7.47595e-07
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0018211
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.3164e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.08373          +/- 3.637        (117.9%)
+b               = 0.00229458       +/- 0.001533     (66.81%)
+c               = 0.00229452       +/- 5.715        (2.491e+05%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.799  1.000 
+c              -0.998  0.781  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 11:13:44 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 6.62892e-06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.707114
+
+initial set of free parameter values
+
+a               = 3.08373
+b               = 0.00229458
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 6.62888e-06
+rel. change during last iteration : -6.55184e-06
+
+degrees of freedom    (FIT_NDF)                        : 3
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00148648
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.20963e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.08373          +/- 0.1735       (5.626%)
+b               = 0.00229727       +/- 0.0007814    (34.02%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.526  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 11:14:28 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 3.30224e-05       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.00450447
+
+initial set of free parameter values
+
+a               = 3.08373
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 2.57299e-05
+rel. change during last iteration : -3.13659e-08
+
+degrees of freedom    (FIT_NDF)                        : 4
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00253623
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.43248e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.35184          +/- 0.2518       (7.512%)
+
+
+correlation matrix of the fit parameters:
+
+               a      
+a               1.000 
+
+
+*******************************************************************************
+Mon Oct 30 11:14:51 2017
+
+
+FIT:    data read from 'photoresistor_LED8V.dat'
+        format = z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.40068e-05       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.577359
+
+initial set of free parameter values
+
+a               = 3.35184
+b               = 0.00229727
+c               = 0.00229452
+
+After 15 iterations the fit converged.
+final sum of squares of residuals : 1.03796e-08
+rel. change during last iteration : -5.84305e-08
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.20401e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.18978e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 11.1396          +/- 0.3289       (2.953%)
+b               = 0.000333762      +/- 7.35e-05     (22.02%)
+c               = -8.48739         +/- 0.258        (3.04%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.859  1.000 
+c              -0.996  0.831  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 11:32:47 2017
+
+
+FIT:    data read from 'LED13V.dat'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 0.000163724       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.577351
+
+initial set of free parameter values
+
+a               = 11.1396
+b               = 0.000333762
+c               = -8.48739
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 1.41777e-07
+rel. change during last iteration : -1.18372e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000142316
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.02538e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 13.5443          +/- 0.3298       (2.435%)
+b               = 0.000718823      +/- 8.441e-05    (11.74%)
+c               = -7.61403         +/- 0.2096       (2.753%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.802  1.000 
+c              -0.989  0.753  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 11:33:51 2017
+
+
+FIT:    data read from 'LED13V.dat'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 9.84237           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.577355
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 1.41777e-07
+rel. change during last iteration : -1.34997e-07
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000142316
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.02538e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 13.5443          +/- 0.3298       (2.435%)
+b               = 0.000718823      +/- 8.441e-05    (11.74%)
+c               = -7.61403         +/- 0.2096       (2.753%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.802  1.000 
+c              -0.989  0.753  1.000 
+
+
+*******************************************************************************
+Mon Oct 30 11:34:26 2017
+
+
+FIT:    data read from 'LED13V.dat'
+        format = z
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 9.84237           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.577355
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = 1
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 1.41777e-07
+rel. change during last iteration : -1.34997e-07
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000142316
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.02538e-08
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 13.5443          +/- 0.3298       (2.435%)
+b               = 0.000718823      +/- 8.441e-05    (11.74%)
+c               = -7.61403         +/- 0.2096       (2.753%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.802  1.000 
+c              -0.989  0.753  1.000 
+
+
+*******************************************************************************
+Mon Apr 16 11:30:36 2018
+
+
+FIT:    data read from 'UV_laser' using 4:5
+        format = x:z
+	y range restricted to [-14.0000 : 7.00000]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Mon Apr 16 11:38:08 2018
+
+
+FIT:    data read from 'UV_laser'
+        format = z
+	y range restricted to [-14.0000 : 7.00000]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: gauss(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 371.074           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.0993978
+
+initial set of free parameter values
+
+a               = 1
+sigma           = 1
+mu              = 1
+
+After 47 iterations the fit converged.
+final sum of squares of residuals : 6.99142
+rel. change during last iteration : -1.93008e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.18249
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.39828
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -155.891         +/- 51.81        (33.24%)
+sigma           = 5.3176           +/- 1.314        (24.72%)
+mu              = -8.43837         +/- 2.057        (24.38%)
+
+
+correlation matrix of the fit parameters:
+
+               a      sigma  mu     
+a               1.000 
+sigma          -0.958  1.000 
+mu              0.971 -0.930  1.000 
+
+
+*******************************************************************************
+Mon Apr 16 13:43:01 2018
+
+
+FIT:    data read from 'UV_laser'
+        format = z
+	y range restricted to [-14.0000 : 7.00000]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: gauss(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 6.99142           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 0.806112
+
+initial set of free parameter values
+
+a               = -155.891
+sigma           = 5.3176
+mu              = -8.43837
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 6.99141
+rel. change during last iteration : -1.4128e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.18249
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.39828
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -155.891         +/- 51.81        (33.24%)
+sigma           = 5.31832          +/- 1.315        (24.72%)
+mu              = -8.43802         +/- 2.058        (24.38%)
+
+
+correlation matrix of the fit parameters:
+
+               a      sigma  mu     
+a               1.000 
+sigma          -0.958  1.000 
+mu              0.970 -0.930  1.000 
+
+
+*******************************************************************************
+Mon Apr 16 13:43:58 2018
+
+
+FIT:    data read from 'UV_laser'
+        format = z
+	y range restricted to [-14.0000 : 7.00000]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: gauss(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Mon Apr 16 13:44:10 2018
+
+
+FIT:    data read from 'UV_laser'
+        format = z
+	y range restricted to [-14.0000 : 7.00000]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: gauss(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 54896.7           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 10.2548
+
+initial set of free parameter values
+
+a               = -155.891
+sigma           = 5.31832
+mu              = -8.43802
+
+After 59 iterations the fit converged.
+final sum of squares of residuals : 6.99146
+rel. change during last iteration : -4.45538e-07
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.18249
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.39829
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = -11.6936         +/- 1.389        (11.88%)
+sigma           = 5.31526          +/- 1.312        (24.68%)
+mu              = -8.43483         +/- 2.054        (24.36%)
+
+
+correlation matrix of the fit parameters:
+
+               a      sigma  mu     
+a               1.000 
+sigma          -0.601  1.000 
+mu              0.781 -0.930  1.000 
+
+
+*******************************************************************************
+Mon Apr 16 14:08:06 2018
+
+
+FIT:    data read from 'UV_laser'
+        format = z
+	y range restricted to [-14.0000 : 7.00000]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: gauss(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 11655             delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 17.6887
+
+initial set of free parameter values
+
+A               = 100
+sigma           = 1
+mu              = 0.1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 368
+rel. change during last iteration : -7.96539e-06
+
+degrees of freedom    (FIT_NDF)                        : 5
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 8.57904
+variance of residuals (reduced chisquare) = WSSR/ndf   : 73.6
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A               = 99.6897          +/- 5.889e+119   (5.907e+119%)
+sigma           = 0.12703          +/- 1.18e+115    (9.286e+117%)
+mu              = 0.963127         +/- 7.255e+114   (7.533e+116%)
+
+
+correlation matrix of the fit parameters:
+
+               A      sigma  mu     
+A               1.000 
+sigma          -1.000  1.000 
+mu              1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Mon Apr 16 14:23:40 2018
+
+
+FIT:    data read from 'UV_laser' using 2:5
+        format = x:z
+	y range restricted to [-14.0000 : 7.00000]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: gauss(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 9510.77           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 15.8213
+
+initial set of free parameter values
+
+A               = 100
+sigma           = 1
+mu              = 0.1
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 6.4084
+rel. change during last iteration : -1.09978e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.95681
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.915486
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A               = 99.6144          +/- 2.908e+13    (2.92e+13%)
+sigma           = 0.359258         +/- 1.359e+10    (3.782e+12%)
+mu              = 0.925793         +/- 5.645e+09    (6.097e+11%)
+
+
+correlation matrix of the fit parameters:
+
+               A      sigma  mu     
+A               1.000 
+sigma          -1.000  1.000 
+mu              1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Mon Apr 16 14:26:53 2018
+
+
+FIT:    data read from 'UV_laser' using 4:5
+        format = x:z
+	y range restricted to [-14.0000 : 7.00000]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: gauss(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 319.442           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 47.6359
+
+initial set of free parameter values
+
+A               = 99.6144
+sigma           = 0.359258
+mu              = 0.925793
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 11.6487
+rel. change during last iteration : -6.58251e-06
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.29
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.6641
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A               = 96.4692          +/- 2.196e+05    (2.276e+05%)
+sigma           = 4.70939          +/- 1134         (2.408e+04%)
+mu              = 14.231           +/- 7014         (4.928e+04%)
+
+
+correlation matrix of the fit parameters:
+
+               A      sigma  mu     
+A               1.000 
+sigma           1.000  1.000 
+mu              1.000  1.000  1.000 
+
+
+*******************************************************************************
+Mon Apr 16 15:05:12 2018
+
+
+FIT:    data read from 'UV_laser' using 4:5
+        format = x:z
+	y range restricted to [-14.0000 : 7.00000]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: gauss(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 90158.6           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 16.9862
+
+initial set of free parameter values
+
+A               = 100
+sigma           = 1
+mu              = 0.1
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 20.668
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.7183
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.95257
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A               = 98.2958          +/- 1.268e+21    (1.29e+21%)
+sigma           = 0.215913         +/- 3.044e+16    (1.41e+19%)
+mu              = 2.06048          +/- 6.196e+17    (3.007e+19%)
+
+
+correlation matrix of the fit parameters:
+
+               A      sigma  mu     
+A               1.000 
+sigma           1.000  1.000 
+mu              1.000  1.000  1.000 
+
+
+*******************************************************************************
+Mon Apr 16 15:14:13 2018
+
+
+FIT:    data read from 'UV_laser' using 2:10
+        format = x:z
+	y range restricted to [-14.0000 : 7.00000]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: gauss(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10236.1           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 15.8213
+
+initial set of free parameter values
+
+A               = 100
+sigma           = 1
+mu              = 0.1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 164.205
+rel. change during last iteration : -4.00613e-08
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.84333
+variance of residuals (reduced chisquare) = WSSR/ndf   : 23.4578
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A               = 99.6239          +/- 3.095e+19    (3.107e+19%)
+sigma           = 0.306599         +/- 8.975e+15    (2.927e+18%)
+mu              = 0.926129         +/- 4.361e+15    (4.709e+17%)
+
+
+correlation matrix of the fit parameters:
+
+               A      sigma  mu     
+A               1.000 
+sigma          -1.000  1.000 
+mu              1.000 -1.000  1.000 
+
+
+*******************************************************************************
+Mon Apr 16 15:20:44 2018
+
+
+FIT:    data read from 'UV_laser' using 7:10
+        format = x:z
+	y range restricted to [-10.0000 : 10.0000]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: gauss(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.33286           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 5.25307e-18
+
+initial set of free parameter values
+
+A               = 100
+sigma           = 0.1
+mu              = 1
+BREAK:          w = 0 in Givens();  Cjj = 5.37936e-190,  Cij = 4.99148e-190
+
+
+
+*******************************************************************************
+Mon Apr 16 15:21:21 2018
+
+
+FIT:    data read from 'UV_laser' using 7:10
+        format = x:z
+	y range restricted to [-10.0000 : 10.0000]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: gauss(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 1.33286           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 5.25307e-18
+
+initial set of free parameter values
+
+A               = 100
+sigma           = 0.1
+mu              = 1
+BREAK:          w = 0 in Givens();  Cjj = 5.37936e-190,  Cij = 4.99148e-190
+
+
+
+*******************************************************************************
+Mon Apr 16 15:22:18 2018
+
+
+FIT:    data read from 'UV_laser' using 7:10
+        format = x:z
+	y range restricted to [-10.0000 : 10.0000]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: gauss(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10231.1           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 15.8213
+
+initial set of free parameter values
+
+A               = 100
+sigma           = 1
+mu              = 0.1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.15136
+rel. change during last iteration : -2.59369e-08
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.405561
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.16448
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A               = 99.6221          +/- 1.747e+21    (1.753e+21%)
+sigma           = 0.292717         +/- 4.379e+17    (1.496e+20%)
+mu              = 1.01641          +/- 4.961e+16    (4.88e+18%)
+
+
+correlation matrix of the fit parameters:
+
+               A      sigma  mu     
+A               1.000 
+sigma          -1.000  1.000 
+mu             -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Tue Apr 17 14:53:48 2018
+
+
+FIT:    data read from 'UV_laser' using 7:10
+        format = x:z
+	y range restricted to [-10.0000 : 10.0000]
+        #datapoints = 10
+        residuals are weighted equally (unit weight)
+
+function used for fitting: gauss(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 10231.1           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 15.8213
+
+initial set of free parameter values
+
+A               = 100
+sigma           = 1
+mu              = 0.1
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.15136
+rel. change during last iteration : -2.59369e-08
+
+degrees of freedom    (FIT_NDF)                        : 7
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.405561
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.16448
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+A               = 99.6221          +/- 1.747e+21    (1.753e+21%)
+sigma           = 0.292717         +/- 4.379e+17    (1.496e+20%)
+mu              = 1.01641          +/- 4.961e+16    (4.88e+18%)
+
+
+correlation matrix of the fit parameters:
+
+               A      sigma  mu     
+A               1.000 
+sigma          -1.000  1.000 
+mu             -1.000  1.000  1.000 
+
+
+*******************************************************************************
+Wed Apr 18 17:51:39 2018
+
+
+FIT:    data read from 'UV_laser' using 13:14
+        format = x:z
+	y range restricted to [-10.0000 : 10.0000]
+        #datapoints = 3
+        residuals are weighted equally (unit weight)
+
+function used for fitting: gauss(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 9679.88           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 22.6225
+
+initial set of free parameter values
+
+A               = 100
+sigma           = 1
+mu              = 0.1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 4.65933
+rel. change during last iteration : -2.66071e-06
+
+
+Exactly as many data points as there are parameters.
+In this degenerate case, all errors are zero by definition.
+
+Final set of parameters 
+======================= 
+
+A               = 99.8356        
+sigma           = 0.220235       
+mu              = 1.39166        

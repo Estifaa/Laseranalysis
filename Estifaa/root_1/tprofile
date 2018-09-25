@@ -1,0 +1,32 @@
+
+
+
+void tprofile()
+{
+    
+    
+TH2D *hprof = new TProfile("hprof","Trial Profile",100,-4,4,0,20);
+Tcanvas *c1 = new TCanvas("c1","Profile histogram example",200,10,700,500);
+
+Float_t = x,y;
+
+for ( Int_t i=0; i<5000; i++) 
+{
+    x = gRandom -> Rndm ();
+    y = gRandom -> Rndm ();
+  
+    hprof->Fill(x,y);
+}
+
+hprof ->Draw ();
+
+
+
+
+
+
+
+
+}
+
+

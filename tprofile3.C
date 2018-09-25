@@ -1,0 +1,84 @@
+
+void tprofile3()
+{
+
+
+
+
+  TString filename1 ="~/Estifaa/rootfiles/output02300.root"; 
+  TFile *f = new TFile(filename1);
+  TCanvas *c1 = new TCanvas("c1","Profile histogram example",1200,1000);
+  TH2D *hfix = (TH2D*) f->FindObjectAny("h_aw_map_time");
+
+  TProfile *hprof=hfix -> ProfileX ();
+  hprof -> Draw();
+
+
+  TString index_s;
+  TString filename,outputfilename;
+  TString folder = "~/Estifaa/rootfiles/filtered/output0";
+  TProfile *hprof3;
+
+
+  cout<<"Name of output file (without .root): ";
+  cin>> outputfilename;
+  cout<<endl;
+
+  TFile* histograms = new TFile(outputfilename+".root","RECREATE","histograms");
+
+  
+  //TFile* ofile = new TFile(outputfilename+".root","UPDATE","histograms");
+
+  //int nh=0;
+  for(Int_t i=2301; i<2317; i++){
+    if(i!=2311){
+      index_s.Form("%i",i);
+      filename= folder+index_s+".root";
+      cout<<filename<<endl;
+
+      TFile *f = new TFile(filename); 
+     TCanvas *c2 = new TCanvas("c"+index_s,"Profile histogram example",1200,1000);
+      f->cd("final/summary");
+
+      // TH2D *hfix1 = (TH2D*) gROOT->FindObject("h_aw_map_time");
+
+      //  cout<<hfix1->GetEntries()<<endl;  
+ 
+      //TProfile *hprof=hfix1 -> ProfileX ();
+      //   TProfile *hprof1=hfix1 -> ProfileX ();
+
+      //  TH2D *hfix = (TH2D*) gROOT->FindObject("h_aw_amp_time");
+
+      TH2D *hfix2 = (TH2D*) gROOT->FindObject("h_pad_amp_per_row_cut_col21");
+  
+     
+      TString pname = TString::Format("%sR%d_px",hfix2 ->GetName(),i );
+      TProfile *hprof2 = hfix2 -> ProfileX (pname.Data());
+      hprof3= (TProfile*) hprof2 -> Clone(pname);
+      //hprof3 -> Add(hprof,-1.0);
+      hprof3 -> SetTitle("Time vs Anode wire position");
+      hprof3-> SetXTitle("Anode wire");
+      
+      hprof3->SetYTitle("Time");
+      hprof3->GetXaxis()->SetRange(0,500);
+      hprof3-> Draw();
+      c2->Write();
+      //if( nh==0){
+      //	hprof -> Draw();
+
+      //  }
+      //  else{
+      //	hprof3 -> Draw("SAME");
+
+    }
+    
+    TFile* ofile = new TFile(outputfilename+".root","UPDATE","histograms");
+
+  histograms->Close();
+    
+  }
+  //++nh;
+   
+
+}
+

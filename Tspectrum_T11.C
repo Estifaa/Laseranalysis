@@ -35,22 +35,35 @@ void Tspectrum_T11()
   Double_t Mean;
   TString index_s;
   TString index_r;
-  TString filename1 ="~/lmartin/agdaq_laser/ana/output02303.root"; 
+  TString filename1 ="ana/output02303.root"; 
   TString object = "h_pad_amp_per_row_cut_col";
   TFile *f = new TFile(filename1);
  
  
   
   TCanvas *c2 = new TCanvas("c2","A Graph ",200,10,700,500);
+  TPad *pad = new TPad("pad","",0,0,1,1);
+  pad->Draw();
+  pad->cd();
   TH1D* hdummy= new TH1D ("hdummy", "peaks graph T11", 1, 0., 576.);
   hdummy ->SetStats(kFALSE); //gets rid of the box 
   hdummy ->Draw();
-  hdummy ->GetYaxis() ->SetRangeUser(0.,2000.);
+  hdummy ->SetXTitle("Pad rows");
+  hdummy->GetYaxis()->SetTitleOffset(1.5);
+  hdummy ->SetYTitle("Entries");
+  hdummy ->GetYaxis() ->SetRangeUser(0.,10000.);
   double maxpeak=0.;
-  c2->SetFillColor(kGray);
-  c2->SetGrid();
+  
+  
+   
+  TPad *overlay = new TPad("overlay","",0,0,1,1);
+  overlay->SetFillStyle(4000);
+  overlay->SetFillColor(0);
+  overlay->SetFrameFillStyle(4000);
+  overlay->Draw();
+  
   auto legend = new TLegend(0.1,0.7,0.48,0.9);
-
+  
   for(Int_t i=15; i<22; i++){
     index_r.Form("%i",i);
     // TString filename = object+index_r;
@@ -283,7 +296,7 @@ void Tspectrum_T11()
     Float_t y2[n];
     double c = -1; 
     double d = 582; 
-    double b = 0.3;
+    double b = 0.35;
     for(int i=0;i<n;i++){
       x2[i] = (c*x1[i])+ d;
       y2[i] = b*y1[i];
@@ -291,17 +304,30 @@ void Tspectrum_T11()
     
     }
     
+    pad->cd();
+
+    h1->Draw("LP same");
+
+    overlay->cd();
+
     TGraphErrors *gr1 = new TGraphErrors(n,x2,y2,ex,ey);
     gr1->SetTitle("TGraphErrors Example");
     gr1->SetMarkerColor(4);
     gr1->SetMarkerStyle(21);
     gr1->SetLineColor(1);
     gr1->SetLineWidth(4);
+    Double_t xmin = pad->GetUxmin();
+    Double_t ymin = 0;
+    Double_t xmax = pad->GetUxmax();
+    Double_t ymax = 12000;
+    TH1D *hframe = (TH1D*) overlay->DrawFrame(xmin,ymin,xmax,ymax);
+    hframe->GetXaxis()->SetLabelOffset(99);
+    hframe->GetYaxis()->SetLabelOffset(99);
     gr1->Draw("SAME");
 
-    h1 ->Draw("LP same");
-    h1->Fit("f2");
-    cout << "Now fitting: Be patient.\n";
+    //    h1 ->Draw("LP same");
+    //h1->Fit("f2");
+    //    cout << "Now fitting: Be patient.\n";
 
     // cout<<index_s<<endl; 
     //cout<<StdDev<<endl;
@@ -316,7 +342,7 @@ void Tspectrum_T11()
 
 
     
-    gr->Draw((i==0)?"ALP":"LP same");
+    //gr->Draw((i==0)?"ALP":"LP same");
     
    
  
@@ -330,11 +356,23 @@ void Tspectrum_T11()
     //gr->Draw("CP SAME");
     //gr->Draw();
     //c2 ->Update();
-
-
+    
+    TGaxis *axis = new TGaxis(xmax,ymin,xmax,ymax,ymin,ymax/b,510,"+l");
+    axis->SetLineColor(kRed);
+    axis->SetLabelColor(kRed);
+    axis->Draw();
+    axis->SetTitle("Intensity [a.u.]");
+    axis->SetTitleFont(hdummy->GetYaxis()->GetTitleFont());
+    axis->SetTitleSize(hdummy->GetYaxis()->GetTitleSize());
+    axis->SetTitleColor(kRed);
+    axis->SetTitleOffset(1.55);
+    axis->SetLabelFont(hdummy->GetYaxis()->GetLabelFont());
+    axis->SetLabelSize(hdummy->GetYaxis()->GetLabelSize());
+    axis->SetLabelOffset(0.07);
+    
 
     
-    gr->Draw((i==0)?"ALP":"LP same");
+    //gr->Draw((i==0)?"ALP":"LP same");
   
     legend->SetHeader("Peaks","C"); // option "C" allows to center the header
     legend->AddEntry(h1,"h1 col" +index_r,"f");

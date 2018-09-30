@@ -49,6 +49,7 @@ void Tspectrum_B07()
   hdummy ->SetStats(kFALSE); //gets rid of the box 
   hdummy ->Draw();
   hdummy ->SetXTitle("Pad rows");
+  hdummy ->GetYaxis()->SetTitleOffset(1.5);
   hdummy ->SetYTitle("Entries");
   hdummy ->GetYaxis() ->SetRangeUser(0.,10000.);
   
@@ -298,15 +299,17 @@ void Tspectrum_B07()
     gr1->Draw("LP");
 
     TGaxis *axis = new TGaxis(xmax,ymin,xmax,ymax,ymin,ymax/b,510,"+l");
-    axis->SetLineColor(kRed);
-    axis->SetLabelColor(kRed);
-    axis->Draw();
-    axis->SetTitle("Intensity [arbitrary units]");
-    hframe->SetLabelFont(hdummy->GetYaxis()->GetLabelFont());
-    hframe->SetLabelSize(hdummy->GetYaxis()->GetLabelSize());
-    hframe->SetLabelColor(hdummy->GetYaxis()->GetLabelColor());
-    hframe->SetLabelOffset(hdummy->GetYaxis()->GetLabelOffset());
-    
+     axis->SetLineColor(kRed);
+      axis->SetLabelColor(kRed);
+      axis->Draw();
+      axis->SetTitle("Intensity [a.u.]");
+      axis->SetTitleFont(hdummy->GetYaxis()->GetTitleFont());
+      axis->SetTitleSize(hdummy->GetYaxis()->GetTitleSize());
+      axis->SetTitleColor(kRed);
+      axis->SetTitleOffset(1.55);
+      axis->SetLabelFont(hdummy->GetYaxis()->GetLabelFont());
+      axis->SetLabelSize(hdummy->GetYaxis()->GetLabelSize());
+      axis->SetLabelOffset(0.07);
   
     legend->SetHeader("Peaks","C"); // option "C" allows to center the header
     legend->AddEntry(h1,"h1 col" +index_r,"f");

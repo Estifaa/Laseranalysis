@@ -35,7 +35,7 @@ void Tspectrum_B07()
   Double_t Mean;
   TString index_s;
   TString index_r;
-  TString filename1 ="~/lmartin/agdaq_laser/ana/output02317.root"; 
+  TString filename1 ="ana/output02317.root"; 
   TString object = "h_pad_amp_per_row_cut_col";
   TFile *f = new TFile(filename1);
  
